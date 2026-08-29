@@ -24,7 +24,7 @@
 
 ## 关键词
 
-ai-writing、chinese-writing、humanize、de-ai、anti-ai、ai-isms、去AI味、中文写作、写作润色
+ai-writing、chinese-writing、humanize、de-ai、anti-ai、ai-isms、去AI味、中文写作、写作润色、AI中文写作、去AI味写作、去AI味写作技巧、DSH去AI味插件、知乎去AI味社区插件
 
 
 ## 目录结构
