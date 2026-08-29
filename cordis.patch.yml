@@ -1,0 +1,5 @@
+# dsh bundle patch: inserts this plugin into a profile's layer stack so the
+# native filesystem provider mounts its bundled skills/ tree (see index.js).
+- insert:
+    - id: avoid-ai-writing-cn
+      name: 'avoid-ai-writing-cn'
