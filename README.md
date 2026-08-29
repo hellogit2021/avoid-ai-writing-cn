@@ -7,7 +7,7 @@
 
 ## 安装
 
-    dsh plugin --profile web add github:<你的GitHub用户名>/avoid-ai-writing-cn
+    dsh plugin --profile web add github:hellogit2021/avoid-ai-writing-cn
 
 ## 使用（就三句话）
 
@@ -22,19 +22,10 @@
     去掉AI味：这个方案极具颠覆性，本质上是对行业的一次彻底重塑……
     → 这个方案改动了大公司不碰的部分：……
 
-## 关键词（便于市场搜索）
+## 关键词
 
 ai-writing、chinese-writing、humanize、de-ai、anti-ai、ai-isms、去AI味、中文写作、写作润色
 
-## 发布到市场（contributor）
-
-1. 建 GitHub 仓库 avoid-ai-writing-cn 并 push 本目录内容
-2. 设置仓库 Topics（Settings → Topics），**必须含 dsh-plugin**：
-   dsh-plugin、deepseek-harness、ai-writing、chinese-writing、humanize、ai-isms、writing
-3. 填写仓库 Description（Settings → General）：
-   "中文写作去 AI 味技能插件（AI-isms / AI writing / humanize）：说去掉AI味即重写，写的不错自动学习新词。"
-4. 替换 marketplace-entry.json 中的 <你的GitHub用户名>，提交 PR 到 awesome-dsh-plugin/awesome-dsh-plugin
-5. 验证搜索：在 DSH 中搜索 "AI writing"、"去AI味"、"humanize" 应能搜到本插件
 
 ## 目录结构
 
