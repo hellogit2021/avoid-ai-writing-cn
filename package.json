@@ -1,0 +1,15 @@
+{
+  "name": "avoid-ai-writing-cn",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "中文写作去 AI 味（AI-isms / AI writing / humanize）技能插件：说“去掉AI味”即重写，说“写的不错”自动把新 AI 词汇记入规避表。由知乎圈子“去AI味写作技巧”社区免费提供。",
+  "keywords": ["dsh-plugin", "deepseek-harness", "skill", "writing", "ai-writing", "chinese-writing", "humanize", "de-ai", "anti-ai", "ai-isms", "中文写作", "去AI味"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/dsh-skill-filesystem": "^0.1.0-rc.6"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-skill-filesystem": { "optional": true }
+  }
+}

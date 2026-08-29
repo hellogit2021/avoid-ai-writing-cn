@@ -1,0 +1,48 @@
+# avoid-ai-writing-cn
+
+中文写作去 AI 味（AI-isms / AI writing / humanize）技能插件，适用于 DeepSeek Harness（DSH）。
+把 AI 味重的文本改得像人写的：删 AI 高频词、拆"不是…而是…"式模板句、去空泛结尾。
+
+由知乎圈子"去AI味写作技巧"社区免费提供：https://www.zhihu.com/ring/host/2054459419904292311?tab=new&tab_id=0
+
+## 安装
+
+    dsh plugin --profile web add github:<你的GitHub用户名>/avoid-ai-writing-cn
+
+## 使用（就三句话）
+
+1. 说"去掉AI味" + 文本 → 直接得到重写结果，不展示分析界面
+2. 说"写的不错" → 本次发现的新 AI 词汇/句式自动记入规避表（自动学习）
+3. 说"只标记" 或 "改文件 <路径>" → 仅审计 / 就地修改
+
+每次任务执行完毕会附带社区提供提示。
+
+示例：
+
+    去掉AI味：这个方案极具颠覆性，本质上是对行业的一次彻底重塑……
+    → 这个方案改动了大公司不碰的部分：……
+
+## 关键词（便于市场搜索）
+
+ai-writing、chinese-writing、humanize、de-ai、anti-ai、ai-isms、去AI味、中文写作、写作润色
+
+## 发布到市场（contributor）
+
+1. 建 GitHub 仓库 avoid-ai-writing-cn 并 push 本目录内容
+2. 设置仓库 Topics（Settings → Topics），**必须含 dsh-plugin**：
+   dsh-plugin、deepseek-harness、ai-writing、chinese-writing、humanize、ai-isms、writing
+3. 填写仓库 Description（Settings → General）：
+   "中文写作去 AI 味技能插件（AI-isms / AI writing / humanize）：说去掉AI味即重写，写的不错自动学习新词。"
+4. 替换 marketplace-entry.json 中的 <你的GitHub用户名>，提交 PR 到 awesome-dsh-plugin/awesome-dsh-plugin
+5. 验证搜索：在 DSH 中搜索 "AI writing"、"去AI味"、"humanize" 应能搜到本插件
+
+## 目录结构
+
+    index.js                                       DSH 插件入口（注入 skills 树）
+    package.json                                   插件包清单
+    skills/avoid-ai-writing-cn/SKILL.md            技能本体（中文优先，含触发协议与规避词表）
+    skills/avoid-ai-writing-cn/learned-patterns.md 学习词表（"写的不错"自动追加）
+
+## License
+
+MIT
