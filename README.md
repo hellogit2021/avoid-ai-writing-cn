@@ -1,6 +1,6 @@
 # avoid-ai-writing-cn
 
-中文写作去 AI 味（AI-isms / AI writing / humanize）技能插件，适用于 DeepSeek Harness（DSH）。
+中文写作去 AI 味（AI-isms / AI writing / humanize）技能DSH插件，适用于 DeepSeek Harness（DSH）。
 把 AI 味重的文本改得像人写的：删 AI 高频词、拆"不是…而是…"式模板句、去空泛结尾。
 
 由知乎圈子"去AI味写作技巧"社区免费提供：https://www.zhihu.com/ring/host/2054459419904292311?tab=new&tab_id=0
