@@ -294,7 +294,9 @@ description: 中文写作去 AI 味（AI-isms）。说"去掉AI味"即重写文�
 
 ## 用户个人词表（不随插件升级丢失）
 
-- 位置：$DSH_HOME/avoid-ai-writing-cn/user-patterns.md（Windows 通常为 %APPDATA%\dsh-desktop\harness\avoid-ai-writing-cn\user-patterns.md）；文件不存在则用 Write 创建
+- 位置（**固定**，不随哪套 DSH、哪个 `$DSH_HOME` 变化）：`%APPDATA%\avoid-ai-writing-cn\user-patterns.md`（Windows 上即 `C:\Users\<你>\AppData\Roaming\avoid-ai-writing-cn\user-patterns.md`）
+- 该固定位置没有这个文件时，用 Write 新建一份（把"格式与内置表一致"那节说的分段表头写进去即可）
+- 一次性迁移：固定位置为空、而旧位置 `%APPDATA%\dsh-desktop\harness\avoid-ai-writing-cn\user-patterns.md` 有内容时，先把旧文件整份写进固定位置，之后**只用固定位置**——不要在两处各维护一份
 - 内容：用户自己的规避词与规则（"写的不错"的学习记录、自定义词、豁免项）
 - 优先级：用户个人词表 > 内置通用词表。同一词两边都出现时，以用户个人词表的处理为准；用户写"放行"表示该词不再标记（取消内置规则）
 - 格式与内置表一致：按 1A / 2 / 3 / 句式 分类，无法归类放"其他"
