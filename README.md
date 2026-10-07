@@ -29,9 +29,7 @@
 
     %APPDATA%\avoid-ai-writing-cn\user-patterns.md
 
-**固定位置，跟你用哪套 DSH 无关**（不随 `$DSH_HOME` 变）。插件升级、重装、换安装方式都不会覆盖它，也可以直接手工编辑。
-
-> 1.0.8 起从旧位置 `%APPDATA%\dsh-desktop\harness\avoid-ai-writing-cn\user-patterns.md` 迁移到这里；两处都有时以新位置为准。
+固定位置，插件升级、重装、换安装方式都不会覆盖它，也可以直接手工编辑。
 
 ## 文件
 
