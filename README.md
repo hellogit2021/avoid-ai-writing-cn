@@ -40,9 +40,7 @@
 
 ## 兼容性
 
-peer 范围为 `>=0.1.0-rc.6 <0.3.0`，覆盖 DSH 0.1.x / 0.2.x。DSH 升到新的次版本（如 0.3）时需同步放宽，否则安装会报 `is incompatible with dsh <版本>`。临时放行（只对 `包名@版本` + `dsh 版本` 这一对生效）：
-
-    dsh plugin --profile <你的 profile> allow-version avoid-ai-writing-cn@<版本> --dsh-version <dsh 版本> --accept-risk
+peer 范围为 `>=0.1.0-rc.6 <0.3.0`，覆盖 DSH 0.1.x / 0.2.x
 
 ## License
 
