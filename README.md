@@ -1,6 +1,6 @@
 # avoid-ai-writing-cn
 
-![版本](https://img.shields.io/github/v/tag/hellogit2021/avoid-ai-writing-cn) **当前版本 1.0.13**
+![版本](https://img.shields.io/github/v/tag/hellogit2021/avoid-ai-writing-cn) **当前版本 1.0.15**
 
 中文写作去 AI 味（AI-isms / humanize）的 DSH 插件。把 AI 味重的文本改得像人写的：删 AI 高频词、拆"不是…而是…"式模板句、去空泛结尾。
 
@@ -42,6 +42,7 @@
     skills/avoid-ai-writing-cn/SKILL.md  技能本体（触发方式 + 通用词表）
     skills/avoid-ai-writing-cn/references/  按需读取的体裁/声音/示例参考
     package.json                         插件包清单
+    CHANGELOG.md                         更新日志（每个版本的实质改动）
 
 ## 兼容性
 
